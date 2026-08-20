@@ -4,6 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/aero_lifeline1.0/',
   plugins: [react(), tailwindcss()],
 })
